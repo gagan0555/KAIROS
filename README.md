@@ -18,9 +18,10 @@ Kairos completely discards confusing left-sidebar layouts. The interface utilize
 *   **[Terminal] Agent Council Log:** View live multi-agent negotiation transcripts.
 *   **[Sliders] Priority Engine:** Dynamically adjust task weight variables from 0 to 100%.
 
-### 2. Seamless Interactive App Guide & Google Auth
-*   **Interactive Walkthrough:** Replaces static text guides with a visual step-by-step onboarding wizard. It dynamically spotlights elements like the Dropzone, Chrono-Shield, and Focus Chamber with clear overlay instructions.
-*   **Google Authentication:** Streamlined login workflow that removes all friction. No corporate or university ID is required; users validate with a single click to securely bind their calendar states.
+### 2. Seamless Interactive App Guide, Google Auth & Profile Customization
+* **Google Authentication:** Streamlined login workflow that removes onboarding friction. No corporate or university ID is required; users validate with a single click to securely bind their calendar states.
+* **Dynamic User Profile Customization:** Immediately following a successful Google login event, the system prompts the user to input an editable display name and select a visual identity token from a curated preset library of avatar designs. This profile state writes directly to the local persistence layers and permanently projects the user's name and avatar avatar element into the global application header.
+* **Enhanced Multi-Stage Guided Tour:** Upgrades standard onboarding into an active, context-aware layout walkthrough wizard. The framework dynamically positions helpful explanatory tooltips directly adjacent to active UI elements (Dropzone, Chrono-Shield, Focus Chamber) complete with a live step progress indicator (e.g., 'Step 3 of 6') along with functional, highly visible 'Next' and 'Skip Tour' action anchors at every stage.
 
 ### 3. Database De-Confliction & Google Calendar API Logic
 To prevent task-overlapping scheduling chaos, the system implements a strict backend validation check (`checkTemporalOverlap`). Combined with a live Google Calendar API sync framework, the algorithm cross-evaluates calendar intervals:
