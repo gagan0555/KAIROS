@@ -1,0 +1,6 @@
+{
+  "name": "Kairos AI",
+  "description": "Adaptive academic scheduling, burnout prevention governor, and intelligent campus recruitment tracker with Google Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

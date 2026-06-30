@@ -1,0 +1,138 @@
+{
+  "hard_constraints": [
+    {
+      "id": 1,
+      "type": "timetable",
+      "title": "Standard Work/Class Blocks",
+      "start_time": "09:00",
+      "end_time": "16:00",
+      "days_of_week": "1,2,3,4,5",
+      "importance_percentage": 60
+    },
+    {
+      "id": 2,
+      "type": "exam",
+      "title": "Critical Project / Exam Presentation",
+      "start_time": "2026-07-02T10:00:00-07:00",
+      "end_time": "2026-07-02T13:00:00-07:00",
+      "date": "2026-07-02",
+      "importance_percentage": 100
+    }
+  ],
+  "pipelines": [
+    {
+      "id": 1,
+      "user_id": "default_user",
+      "pipeline_name": "AWS Solutions Architect",
+      "track_type": "Independent",
+      "created_at": "2026-06-30T18:42:11.740Z"
+    },
+    {
+      "id": 2,
+      "user_id": "default_user",
+      "pipeline_name": "Grade 11 Calculus",
+      "track_type": "Academic",
+      "created_at": "2026-06-30T18:42:11.745Z"
+    },
+    {
+      "id": 3,
+      "user_id": "default_user",
+      "pipeline_name": "Google SE Recruitment",
+      "track_type": "Career",
+      "created_at": "2026-06-30T18:42:11.746Z"
+    }
+  ],
+  "pipeline_stages": [
+    {
+      "id": 1,
+      "pipeline_id": 1,
+      "stage_name": "Cloud Practitioner Essentials",
+      "position_order": 0,
+      "status": "pending",
+      "deadline": "2026-07-01T18:42:11.742Z",
+      "duration_minutes": 60,
+      "cognitive_load": "low",
+      "buffer_minutes": 10,
+      "post_mortem_submitted": 0,
+      "importance_percentage": 50
+    },
+    {
+      "id": 2,
+      "pipeline_id": 1,
+      "stage_name": "Core Services Deep-Dive",
+      "position_order": 1,
+      "status": "pending",
+      "deadline": "2026-07-03T18:42:11.745Z",
+      "duration_minutes": 90,
+      "cognitive_load": "high",
+      "buffer_minutes": 10,
+      "post_mortem_submitted": 0,
+      "importance_percentage": 75
+    },
+    {
+      "id": 3,
+      "pipeline_id": 2,
+      "stage_name": "Limits & Continuity Diagnostic",
+      "position_order": 0,
+      "status": "pending",
+      "deadline": "2026-07-02T18:42:11.745Z",
+      "duration_minutes": 60,
+      "cognitive_load": "medium",
+      "buffer_minutes": 10,
+      "post_mortem_submitted": 0,
+      "importance_percentage": 60
+    },
+    {
+      "id": 4,
+      "pipeline_id": 2,
+      "stage_name": "Calculus Mid-Term Exam",
+      "position_order": 1,
+      "status": "pending",
+      "deadline": "2026-07-05T18:42:11.746Z",
+      "duration_minutes": 120,
+      "cognitive_load": "high",
+      "buffer_minutes": 10,
+      "post_mortem_submitted": 0,
+      "importance_percentage": 90
+    },
+    {
+      "id": 5,
+      "pipeline_id": 3,
+      "stage_name": "Online Technical Assessment",
+      "position_order": 0,
+      "status": "pending",
+      "deadline": "2026-07-04T18:42:11.747Z",
+      "duration_minutes": 90,
+      "cognitive_load": "high",
+      "buffer_minutes": 10,
+      "post_mortem_submitted": 0,
+      "importance_percentage": 95
+    }
+  ],
+  "habits": [
+    {
+      "id": 1,
+      "title": "15-min System Design Review",
+      "type": "micro-habit",
+      "active": 1,
+      "duration_minutes": 15,
+      "importance_percentage": 50
+    },
+    {
+      "id": 2,
+      "title": "LeetCode Daily Problem",
+      "type": "flexible-habit",
+      "active": 1,
+      "duration_minutes": 45,
+      "importance_percentage": 40
+    }
+  ],
+  "agent_logs": [
+    {
+      "id": 1,
+      "timestamp": "2026-06-30T18:42:11.750Z",
+      "message": "Kairos AI Core Initialization complete. Standing by for Student/User Data Ingestion.",
+      "category": "governor"
+    }
+  ]
+}
