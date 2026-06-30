@@ -77,3 +77,5 @@ The orchestration backend executes multi-turn multi-agent deliberation within **
 
 ### 🏆 One-Click Evaluator Hackathon Demo Mode
 To allow judges to witness 100% of the platform's multi-agent depth in under 10 seconds, click the **"Launch Hackathon Demo Mode"** button at the top of the screen. This immediately seeds the database state with a mock engineering timetable, an imminent 24-hour Uber OA deadline (95% priority), a 52% compliance flag that shifts the theme into Recovery Mode, and an active terminal log printing the 7-agent network's execution argument in real time.
+
+### LIVE APP LINK- https://kairos-ai-271958669343.asia-southeast1.run.app
